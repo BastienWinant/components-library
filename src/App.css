@@ -1,1 +1,27 @@
 #root {}
+
+/* BADGES */
+.badge {
+  /* content layout */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 .75em;
+
+  border: 1px solid black;
+}
+
+.badge-square {
+  border-radius: .25em;
+}
+
+.badge-pill {
+  border-radius: .75em;
+}
+
+.badge-text {
+  font-size: .875rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-transform: capitalize;
+}

@@ -1,7 +1,9 @@
 import React from "react"
 
-export default function Badge() {
+export default function Badge({children}) {
   return (
-    <div className="badge">this is a badge</div>
+    <div className="badge badge-square">
+      <p className="badge-text">{children}</p>
+    </div>
   )
 }

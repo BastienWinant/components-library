@@ -6,7 +6,7 @@ import Badge from "./components/Badge/Badge"
 function App() {
 
   return (
-    <Badge />
+    <Badge>badge</Badge>
   )
 }
 
