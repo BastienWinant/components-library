@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/Inter-VariableFont_opsz\,wght.ttf');
+  font-style: normal;
+}
+
 :root {}
 
 * {
@@ -6,13 +12,16 @@
   box-sizing: border-box;
 
   color: inherit;
+  font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
 
   user-select: none;
 }
 
-body {}
+body {
+  font-family: 'Inter', sans-serif;
+}
 
 button {
   border: none;
