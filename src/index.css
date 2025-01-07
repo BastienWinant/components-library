@@ -4,6 +4,12 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Permanent Marker';
+  src: url('./assets/PermanentMarker-Regular.ttf');
+  font-style: normal;
+}
+
 :root {}
 
 * {
@@ -22,6 +28,11 @@
 body {
   font-family: 'Inter', sans-serif;
   background-color: #E5E7EB;
+}
+
+main {
+  margin: auto;
+  border: 1px solid black;
 }
 
 button {

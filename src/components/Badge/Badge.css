@@ -1,14 +1,16 @@
 .badge {
   display: inline-flex;
+  padding: .125em .75em;
+  background-color: #F3F4F6;
+  color: #1F2937;
 }
 
-.badge-rectangle {
-  padding: .125em .75em;
+.badge.square {
   border-radius: .25em;
 }
 
-.badge-regular {
-  background-color: #F3F4F6;
+.badge.pill {
+  border-radius: .75em;
 }
 
 .badge-text {
