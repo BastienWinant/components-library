@@ -6,6 +6,7 @@ body {
 main {
   max-width: 768px;
   margin: auto;
+  padding: 2em;
   border: 2px solid red;
 }
 
@@ -13,8 +14,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: 4em;
-
-  border: 1px solid lightgoldenrodyellow;
+  margin-bottom: 2em;
 }
 
 h2 {
@@ -32,8 +32,48 @@ h2 {
 
 .row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(5em , 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(4.5em , 1fr));
   grid-auto-rows: auto;
   justify-items: center;
   gap: 1em;
+}
+
+.body-light {
+  color: #1F2937;
+  background-color: #F3F4F6;
+}
+
+.danger-light {
+  color: #991B1B;
+  background-color: #FEE2E2;
+}
+
+.warning-light {
+  color: #92400E;
+  background-color: #FEF3C7;
+}
+
+.success-light {
+  color: #065F46;
+  background-color: #D1FAE5;
+}
+
+.primary-light {
+  color: #1E40AF;
+  background-color: #DBEAFE;
+}
+
+.indigo-light {
+  color: #3730A3;
+  background-color: #E0E7FF;
+}
+
+.purple-light {
+  color: #5B21B6;
+  background-color: #EDE9FE;
+}
+
+.pink-light {
+  color: #9D174D;
+  background-color: #FCE7F3;
 }

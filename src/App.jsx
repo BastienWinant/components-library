@@ -13,24 +13,24 @@ function App() {
         </header>
         <div className="container">
           <div className="row">
-            <Badge className="square">badge</Badge>
-            <Badge className="square">badge</Badge>
-            <Badge className="square">badge</Badge>
-            <Badge className="square">badge</Badge>
-            <Badge className="square">badge</Badge>
-            <Badge className="square">badge</Badge>
-            <Badge className="square">badge</Badge>
-            <Badge className="square">badge</Badge>
+            <Badge className="square body-light">badge</Badge>
+            <Badge className="square danger-light">badge</Badge>
+            <Badge className="square warning-light">badge</Badge>
+            <Badge className="square success-light">badge</Badge>
+            <Badge className="square primary-light">badge</Badge>
+            <Badge className="square indigo-light">badge</Badge>
+            <Badge className="square purple-light">badge</Badge>
+            <Badge className="square pink-light">badge</Badge>
           </div>
           <div className="row">
-            <Badge className="pill">badge</Badge>
-            <Badge className="pill">badge</Badge>
-            <Badge className="pill">badge</Badge>
-            <Badge className="pill">badge</Badge>
-            <Badge className="pill">badge</Badge>
-            <Badge className="pill">badge</Badge>
-            <Badge className="pill">badge</Badge>
-            <Badge className="pill">badge</Badge>
+            <Badge className="pill body-light">badge</Badge>
+            <Badge className="pill danger-light">badge</Badge>
+            <Badge className="pill warning-light">badge</Badge>
+            <Badge className="pill success-light">badge</Badge>
+            <Badge className="pill primary-light">badge</Badge>
+            <Badge className="pill indigo-light">badge</Badge>
+            <Badge className="pill purple-light">badge</Badge>
+            <Badge className="pill pink-light">badge</Badge>
           </div>
         </div>
       </section>

@@ -1,8 +1,6 @@
 .badge {
   display: inline-flex;
   padding: .125em .75em;
-  background-color: #F3F4F6;
-  color: #1F2937;
 }
 
 .badge.square {
