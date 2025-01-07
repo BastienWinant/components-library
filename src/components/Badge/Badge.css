@@ -1,0 +1,19 @@
+.badge {
+  display: inline-flex;
+}
+
+.badge-rectangle {
+  padding: .125em .75em;
+  border-radius: .25em;
+}
+
+.badge-regular {
+  background-color: #F3F4F6;
+}
+
+.badge-text {
+  font-size: .875rem;
+  line-height: 1.5;
+  font-weight: 500;
+  text-transform: capitalize;
+}
