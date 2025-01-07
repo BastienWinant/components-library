@@ -10,8 +10,6 @@
   font-style: normal;
 }
 
-:root {}
-
 * {
   margin: 0;
   padding: 0;
@@ -31,16 +29,15 @@ body {
 }
 
 main {
+  max-width: 768px;
   margin: auto;
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
 }
 
 button {
   border: none;
   background: transparent;
   cursor: pointer;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {}
 }

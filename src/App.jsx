@@ -11,14 +11,38 @@ function App() {
         <header>
           <h2>badges</h2>
         </header>
-        <div>
-          <div>
+        <div className="container">
+          <div className="row">
+            <Badge className="square">badge</Badge>
+            <Badge className="square">badge</Badge>
+            <Badge className="square">badge</Badge>
+            <Badge className="square">badge</Badge>
+            <Badge className="square">badge</Badge>
+            <Badge className="square">badge</Badge>
+            <Badge className="square">badge</Badge>
             <Badge className="square">badge</Badge>
           </div>
-          <div>
+          <div className="row">
+            <Badge className="pill">badge</Badge>
+            <Badge className="pill">badge</Badge>
+            <Badge className="pill">badge</Badge>
+            <Badge className="pill">badge</Badge>
+            <Badge className="pill">badge</Badge>
+            <Badge className="pill">badge</Badge>
+            <Badge className="pill">badge</Badge>
             <Badge className="pill">badge</Badge>
           </div>
         </div>
+      </section>
+      <section>
+        <header>
+          <h2>banners</h2>
+        </header>
+      </section>
+      <section>
+        <header>
+          <h2>cards</h2>
+        </header>
       </section>
     </main>
   )
