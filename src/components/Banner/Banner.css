@@ -1,0 +1,10 @@
+.banner {
+  border-radius: .375em;
+  padding: 1em;
+  /* height: 2em; */
+}
+
+.banner-text {
+  font-size: .875rem;
+  line-height: 1.5;
+}

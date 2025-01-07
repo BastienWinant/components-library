@@ -1,7 +1,7 @@
-import { useState } from 'react'
 import './App.css'
 
 import Badge from "./components/Badge/Badge"
+import Banner from './components/Banner/Banner'
 
 function App() {
 
@@ -38,6 +38,15 @@ function App() {
         <header>
           <h2>banners</h2>
         </header>
+        <div className="container">
+          <div className="column">
+            <Banner className="body success-light"></Banner>
+            <Banner className="body warning-light"></Banner>
+            <Banner className="body danger-light"></Banner>
+            <Banner className="body primary-light"></Banner>
+          </div>
+          <div className="column"></div>
+        </div>
       </section>
       <section>
         <header>
