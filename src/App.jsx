@@ -40,10 +40,22 @@ function App() {
         </header>
         <div className="container">
           <div className="column">
-            <Banner className="body success-light"></Banner>
-            <Banner className="body warning-light"></Banner>
-            <Banner className="body danger-light"></Banner>
-            <Banner className="body primary-light"></Banner>
+            <Banner className="body success-light">
+              <h2>Congratulations!</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</p>
+            </Banner>
+            <Banner className="body warning-light">
+              <h2>attention</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</p>
+            </Banner>
+            <Banner className="body danger-light">
+              <h2>There is a problem with your application</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</p>
+            </Banner>
+            <Banner className="body primary-light">
+              <h2>update available</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</p>
+            </Banner>
           </div>
           <div className="column"></div>
         </div>
