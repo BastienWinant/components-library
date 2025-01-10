@@ -15,7 +15,6 @@ export default function Banner({children, className}) {
 
   return (
     <article className={clsx("banner", className)}>
-      {/* <i className="fa-solid fa-triangle-exclamation banner-icon"></i> */}
       <img className="banner-icon" src={iconImg} />
       <div>{children}</div>
     </article>
