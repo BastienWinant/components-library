@@ -1,7 +1,7 @@
 import './App.css'
 
 import Badge from "./components/Badge/Badge"
-import Banner from './components/Banner/Banner'
+import Banner from "./components/Banner/index"
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <main>
       <section>
         <header>
-          <h2>badges</h2>
+          <h2 className="section-title">badges</h2>
         </header>
         <div className="container">
           <div className="row">
@@ -36,25 +36,25 @@ function App() {
       </section>
       <section>
         <header>
-          <h2>banners</h2>
+          <h2 className="section-title">banners</h2>
         </header>
         <div className="container">
           <div className="column">
-            <Banner className="body success-light">
-              <h2>Congratulations!</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</p>
+            <Banner className="sucess success-light">
+              <Banner.Title>Congratulations!</Banner.Title>
+              <Banner.Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner.Text>
             </Banner>
-            <Banner className="body warning-light">
-              <h2>attention</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</p>
+            <Banner className="warning warning-light">
+              <Banner.Title>Attention</Banner.Title>
+              <Banner.Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</Banner.Text>
             </Banner>
-            <Banner className="body danger-light">
-              <h2>There is a problem with your application</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</p>
+            <Banner className="danger danger-light">
+              <Banner.Title>There is a problem with your application</Banner.Title>
+              <Banner.Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</Banner.Text>
             </Banner>
-            <Banner className="body primary-light">
-              <h2>update available</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</p>
+            <Banner className="info info-light">
+              <Banner.Title>Update available</Banner.Title>
+              <Banner.Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner.Text>
             </Banner>
           </div>
           <div className="column"></div>
@@ -62,7 +62,7 @@ function App() {
       </section>
       <section>
         <header>
-          <h2>cards</h2>
+          <h2 className="section-title">cards</h2>
         </header>
       </section>
     </main>

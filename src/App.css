@@ -17,7 +17,7 @@ section {
   margin-bottom: 2em;
 }
 
-h2 {
+.section-title {
   font-family: 'Permanent Marker', Georgia, 'Times New Roman', Times, serif;
   font-size: 2.75rem;
   line-height: 1.5;
@@ -58,7 +58,7 @@ h2 {
   background-color: #D1FAE5;
 }
 
-.primary-light {
+.info-light {
   color: #1E40AF;
   background-color: #DBEAFE;
 }
