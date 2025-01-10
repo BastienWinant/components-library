@@ -2,6 +2,8 @@ import './App.css'
 
 import Badge from "./components/Badge/Badge"
 import Banner from "./components/Banner/index"
+import Card from "./components/Card/index"
+import uploadIcon from "./assets/img/migration.svg"
 
 function App() {
 
@@ -78,6 +80,12 @@ function App() {
           <h2 className="section-title">cards</h2>
         </header>
       </section>
+      <div className="container">
+        <Card logoSrc={uploadIcon}>
+          <Card.Title>easy deployment</Card.Title>
+          <Card.Text>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card.Text>
+        </Card>
+      </div>
     </main>
   )
 }
