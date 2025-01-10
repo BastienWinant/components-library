@@ -10,10 +10,13 @@
 }
 
 .banner-icon {
-  margin-top: .1em;
+  margin-top: .15em;
 }
 
 .banner-title {
   font-weight: 500;
+}
+
+.banner-text {
   margin-bottom: .6em;
 }

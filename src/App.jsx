@@ -17,7 +17,7 @@ function App() {
             <Badge className="square danger-light">badge</Badge>
             <Badge className="square warning-light">badge</Badge>
             <Badge className="square success-light">badge</Badge>
-            <Badge className="square primary-light">badge</Badge>
+            <Badge className="square info-light">badge</Badge>
             <Badge className="square indigo-light">badge</Badge>
             <Badge className="square purple-light">badge</Badge>
             <Badge className="square pink-light">badge</Badge>
@@ -27,7 +27,7 @@ function App() {
             <Badge className="pill danger-light">badge</Badge>
             <Badge className="pill warning-light">badge</Badge>
             <Badge className="pill success-light">badge</Badge>
-            <Badge className="pill primary-light">badge</Badge>
+            <Badge className="pill info-light">badge</Badge>
             <Badge className="pill indigo-light">badge</Badge>
             <Badge className="pill purple-light">badge</Badge>
             <Badge className="pill pink-light">badge</Badge>
@@ -57,7 +57,20 @@ function App() {
               <Banner.Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner.Text>
             </Banner>
           </div>
-          <div className="column"></div>
+          <div className="column">
+            <Banner className="sucess success-light">
+              <Banner.Title>Congratulations!</Banner.Title>
+            </Banner>
+            <Banner className="warning warning-light">
+              <Banner.Title>Attention</Banner.Title>
+            </Banner>
+            <Banner className="danger danger-light">
+              <Banner.Title>There is a problem with your application</Banner.Title>
+            </Banner>
+            <Banner className="info info-light">
+              <Banner.Title>Update available</Banner.Title>
+            </Banner>
+          </div>
         </div>
       </section>
       <section>
