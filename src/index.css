@@ -29,11 +29,10 @@ body {
 }
 
 main {
-  max-width: 768px;
+  max-width: 992px;
   margin: auto;
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
 }
 
 button {
