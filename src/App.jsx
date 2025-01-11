@@ -13,7 +13,7 @@ function App() {
         <header>
           <h2 className="section-title">badges</h2>
         </header>
-        <div className="container">
+        <div className="column-container">
           <div className="row">
             <Badge className="square body-light">badge</Badge>
             <Badge className="square danger-light">badge</Badge>
@@ -40,7 +40,7 @@ function App() {
         <header>
           <h2 className="section-title">banners</h2>
         </header>
-        <div className="container">
+        <div className="row-container">
           <div className="column">
             <Banner className="sucess success-light">
               <Banner.Title>Congratulations!</Banner.Title>
@@ -80,7 +80,7 @@ function App() {
           <h2 className="section-title">cards</h2>
         </header>
       </section>
-      <div className="container">
+      <div className="column-container">
         <Card logoSrc={uploadIcon}>
           <Card.Title>easy deployment</Card.Title>
           <Card.Text>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card.Text>

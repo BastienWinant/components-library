@@ -4,7 +4,7 @@ body {
 }
 
 main {
-  max-width: 768px;
+  max-width: 992px;
   margin: auto;
   padding: 2em;
 }
@@ -12,8 +12,8 @@ main {
 section {
   display: flex;
   flex-direction: column;
-  gap: 4em;
-  margin-bottom: 2em;
+  gap: 2em;
+  margin-bottom: 4em;
 }
 
 .section-title {
@@ -23,7 +23,15 @@ section {
   color: #333;
 }
 
-.container {
+.row-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-rows: 1fr;
+  gap: 2em;
+  align-items: start;
+}
+
+.column-container {
   display: flex;
   flex-direction: column;
   gap: 2em;
