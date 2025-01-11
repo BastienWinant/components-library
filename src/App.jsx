@@ -13,7 +13,7 @@ function App() {
         <header>
           <h2 className="section-title">badges</h2>
         </header>
-        <div className="column-container">
+        <div className="badges-container">
           <div className="row">
             <Badge className="square body-light">badge</Badge>
             <Badge className="square danger-light">badge</Badge>
@@ -40,36 +40,36 @@ function App() {
         <header>
           <h2 className="section-title">banners</h2>
         </header>
-        <div className="row-container">
+        <div className="banners-container">
           <div className="column">
-            <Banner className="sucess success-light">
+            <Banner type="success">
               <Banner.Title>Congratulations!</Banner.Title>
               <Banner.Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner.Text>
             </Banner>
-            <Banner className="warning warning-light">
+            <Banner type="warning">
               <Banner.Title>Attention</Banner.Title>
               <Banner.Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</Banner.Text>
             </Banner>
-            <Banner className="danger danger-light">
+            <Banner type="danger">
               <Banner.Title>There is a problem with your application</Banner.Title>
               <Banner.Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</Banner.Text>
             </Banner>
-            <Banner className="info info-light">
+            <Banner type="info">
               <Banner.Title>Update available</Banner.Title>
               <Banner.Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner.Text>
             </Banner>
           </div>
           <div className="column">
-            <Banner className="sucess success-light">
+            <Banner type="success">
               <Banner.Title>Congratulations!</Banner.Title>
             </Banner>
-            <Banner className="warning warning-light">
+            <Banner type="warning">
               <Banner.Title>Attention</Banner.Title>
             </Banner>
-            <Banner className="danger danger-light">
+            <Banner type="danger">
               <Banner.Title>There is a problem with your application</Banner.Title>
             </Banner>
-            <Banner className="info info-light">
+            <Banner type="info">
               <Banner.Title>Update available</Banner.Title>
             </Banner>
           </div>

@@ -23,18 +23,18 @@ section {
   color: #333;
 }
 
-.row-container {
+.badges-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.banners-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   grid-template-rows: 1fr;
   gap: 2em;
   align-items: start;
-}
-
-.column-container {
-  display: flex;
-  flex-direction: column;
-  gap: 2em;
 }
 
 .row {

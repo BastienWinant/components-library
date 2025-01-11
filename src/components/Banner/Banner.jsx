@@ -6,12 +6,14 @@ import checkIcon from './img/c-check-2.svg'
 import infoIcon from './img/c-info.svg'
 import dangerIcon from "./img/c-remove.svg"
 
-export default function Banner({children, className}) {
+export default function Banner({children, type}) {
   let iconImg = warningIcon
 
-  if (className.includes("success")) iconImg = checkIcon
-  else if (className.includes("danger")) iconImg = dangerIcon
-  else if (className.includes("info")) iconImg = infoIcon
+  if (type === "success") iconImg = checkIcon
+  else if (type === "danger") iconImg = dangerIcon
+  else if (type === "info") iconImg = infoIcon
+
+  let className = `${type}-light`
 
   return (
     <article className={clsx("banner", className)}>
