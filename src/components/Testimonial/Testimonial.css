@@ -1,18 +1,27 @@
 .testimonial {
-  display: grid;
-  grid-template-columns: 30% 1fr;
-  grid-auto-rows: auto;
-  gap: 2em;
-  padding: 0 4.5em;
-  color: #FFF;
+  max-width: 376px;
   background-color: #2545B8;
+  color: #FFFFFF;
+  margin-top: 6em;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1em;
+  position: relative;
+  top: -3em;
 }
 
 .testimonial-img {
-  max-width: 100%;
+  width: 100%;
+  height: 12em;
   display: block;
+
+  position: relative;
+  top: -3em;
+
   object-fit: cover;
-  
   border-radius: .75em;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1),
               0 10px 10px -5px rgba(0, 0, 0, .04);
@@ -21,18 +30,18 @@
 .testimonial-body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
   gap: 1.5em;
+
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .testimonial-quote {
+  width: 90%;
   font-size: 1.5rem;
-  line-height: 1.5;
-  font-weight: 500;
 }
 
-.testimonial-caption {
-  font-size: 1rem;
-  line-height: 1.5;
+.testimonial-name {
+  font-weight: 700;
 }

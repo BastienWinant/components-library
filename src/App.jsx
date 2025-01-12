@@ -93,7 +93,11 @@ function App() {
         </header>
         <div className='testimonials-container'>
           <div>
-            <Testimonial imgSrc={"https://images.unsplash.com/photo-1720345490242-8f12cc6ea6bb"}></Testimonial>
+            <Testimonial imgSrc={"https://images.unsplash.com/photo-1632765854612-9b02b6ec2b15"}>
+              <Testimonial.Quote name="May Andersons" title="Wotkcation, CTO">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit.
+              </Testimonial.Quote>
+            </Testimonial>
           </div>
         </div>
       </section>
