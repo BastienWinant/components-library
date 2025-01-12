@@ -38,17 +38,14 @@ section {
 }
 
 .row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(4.5em , 1fr));
-  grid-auto-rows: auto;
-  justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
   gap: 1em;
 }
 
 .column {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-auto-rows: auto;
+  display: flex;
+  flex-direction: column;
   gap: 1em;
 }
 
