@@ -1,4 +1,3 @@
-import './Banner.css'
 import React from "react"
 import clsx from 'clsx'
 import warningIcon from './img/warning-sign.svg'

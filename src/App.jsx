@@ -4,6 +4,7 @@ import Badge from "./components/Badge/Badge"
 import Banner from "./components/Banner/index"
 import Card from "./components/Card/index"
 import uploadIcon from "./assets/img/migration.svg"
+import Testimonial from './components/Testimonial/index'
 
 function App() {
 
@@ -79,13 +80,23 @@ function App() {
         <header>
           <h2 className="section-title">cards</h2>
         </header>
+        <div>
+          <Card logoSrc={uploadIcon}>
+            <Card.Title>easy deployment</Card.Title>
+            <Card.Text>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card.Text>
+          </Card>
+        </div>
       </section>
-      <div className="column-container">
-        <Card logoSrc={uploadIcon}>
-          <Card.Title>easy deployment</Card.Title>
-          <Card.Text>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card.Text>
-        </Card>
-      </div>
+      <section>
+        <header>
+          <h2 className="section-title">testimonials</h2>
+        </header>
+        <div className='testimonials-container'>
+          <div>
+            <Testimonial imgSrc={"https://images.unsplash.com/photo-1720345490242-8f12cc6ea6bb"}></Testimonial>
+          </div>
+        </div>
+      </section>
     </main>
   )
 }
