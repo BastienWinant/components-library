@@ -1,6 +1,8 @@
 import './App.css'
 import Badge from './components/Badge/Badge'
 import Banner from './components/Banner'
+import Card from './components/Card'
+import uploadIcon from './assets/img/migration.svg'
 
 function App() {
   return (
@@ -74,8 +76,14 @@ function App() {
       </section>
       <section>
         <header className="section-header">
-          <h2>testimonials</h2>
+          <h2>Cards</h2>
         </header>
+        <div className='cards'>
+          <Card iconSrc={uploadIcon}>
+            <Card.Title>easy deployment</Card.Title>
+            <Card.Text>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card.Text>
+          </Card>
+        </div>
       </section>
     </main>
   )

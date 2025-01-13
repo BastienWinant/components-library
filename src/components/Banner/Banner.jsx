@@ -1,4 +1,3 @@
-import './Banner.css'
 import clsx from 'clsx'
 import checkmarkIcon from "./img/c-check.svg"
 import warningIcon from "./img/warning-sign.svg"
