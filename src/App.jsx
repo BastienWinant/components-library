@@ -1,5 +1,6 @@
 import './App.css'
 import Badge from './components/Badge/Badge'
+import Banner from './components/Banner'
 
 function App() {
   return (
@@ -36,7 +37,40 @@ function App() {
         <header className="section-header">
           <h2>banners</h2>
         </header>
-        <div className="banners"></div>
+        <div className="banners">
+          <div className='banner-column'>
+            <Banner status="success">
+              <Banner.Title>Congratulations!</Banner.Title>
+              <Banner.Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner.Text>
+            </Banner>
+            <Banner status="warning">
+              <Banner.Title>Attention</Banner.Title>
+              <Banner.Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</Banner.Text>
+            </Banner>
+            <Banner status="danger">
+              <Banner.Title>There is a problem with your application</Banner.Title>
+              <Banner.Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</Banner.Text>
+            </Banner>
+            <Banner status="info">
+              <Banner.Title>Update available</Banner.Title>
+              <Banner.Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner.Text>
+            </Banner>
+          </div>
+          <div className='banner-column'>
+          <Banner status="success">
+              <Banner.Title>Congratulations!</Banner.Title>
+            </Banner>
+            <Banner status="warning">
+              <Banner.Title>Attention</Banner.Title>
+            </Banner>
+            <Banner status="danger">
+              <Banner.Title>There is a problem with your application</Banner.Title>
+            </Banner>
+            <Banner status="info">
+              <Banner.Title>Update available</Banner.Title>
+            </Banner>
+          </div>
+        </div>
       </section>
       <section>
         <header className="section-header">

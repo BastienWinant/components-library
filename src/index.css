@@ -6,7 +6,7 @@
   color: inherit;
   font-size: inherit;
   font-weight: inherit;
-  line-height: 1;
+  line-height: inherit;
 
   user-select: none;
 }
