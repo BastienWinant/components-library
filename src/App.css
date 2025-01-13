@@ -1,90 +1,39 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Permanent Marker';
+  src: url('./assets/fonts/Permanent_Marker/PermanentMarker-Regular.ttf');
+  font-style: normal;
+}
+
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-color: #E5E7EB;
 }
 
 main {
   max-width: 992px;
   margin: auto;
-  padding: 2em;
-}
-
-section {
   display: flex;
   flex-direction: column;
-  gap: 2em;
-  margin-bottom: 4em;
+  gap: 4em;
+  border: 2px solid orangered;
 }
 
-.section-title {
-  font-family: 'Permanent Marker', Georgia, 'Times New Roman', Times, serif;
-  font-size: 2.75rem;
-  line-height: 1.5;
-  color: #333;
+h1 {
+  font-family: 'Permanent Marker';
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
 }
 
-.badges-container {
-  display: flex;
-  flex-direction: column;
-  gap: 2em;
-}
-
-.banners-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  grid-template-rows: 1fr;
-  gap: 2em;
-  align-items: start;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-}
-
-.body-light {
-  color: #1F2937;
-  background-color: #F3F4F6;
-}
-
-.danger-light {
-  color: #991B1B;
-  background-color: #FEE2E2;
-}
-
-.warning-light {
-  color: #92400E;
-  background-color: #FEF3C7;
-}
-
-.success-light {
-  color: #065F46;
-  background-color: #D1FAE5;
-}
-
-.info-light {
-  color: #1E40AF;
-  background-color: #DBEAFE;
-}
-
-.indigo-light {
-  color: #3730A3;
-  background-color: #E0E7FF;
-}
-
-.purple-light {
-  color: #5B21B6;
-  background-color: #EDE9FE;
-}
-
-.pink-light {
-  color: #9D174D;
-  background-color: #FCE7F3;
+.section-header {
+  font-family: 'Permanent Marker';
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.33;
 }

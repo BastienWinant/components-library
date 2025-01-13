@@ -1,10 +1,8 @@
 import './Badge.css'
-import React from "react"
-import clsx from 'clsx'
 
-export default function Badge({children, className}) {
+export default function Badge({children}) {
   return (
-    <div className={clsx("badge", className)}>
+    <div className="badge">
       <p className="badge-text">{children}</p>
     </div>
   )

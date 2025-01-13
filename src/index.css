@@ -1,42 +1,18 @@
-@font-face {
-  font-family: 'Inter';
-  src: url('./assets/fonts/Inter-VariableFont_opsz\,wght.ttf');
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Permanent Marker';
-  src: url('./assets/fonts/PermanentMarker-Regular.ttf');
-  font-style: normal;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
   color: inherit;
-  font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
+  line-height: 1;
 
   user-select: none;
 }
 
-body {
-  font-family: 'Inter', sans-serif;
-  background-color: #E5E7EB;
-}
-
-main {
-  max-width: 992px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-}
-
-button {
-  border: none;
-  background: transparent;
-  cursor: pointer;
+img {
+  display: block;
+  object-fit: cover;
+  max-width: 100%;
 }

@@ -1,19 +1,20 @@
 .badge {
-  display: inline-flex;
+  display: inline-block;
   padding: .125em .75em;
+  border: 1px solid black;
 }
 
 .badge.square {
   border-radius: .25em;
 }
 
-.badge.pill {
+.border.pill {
   border-radius: .75em;
 }
 
 .badge-text {
   font-size: .875rem;
-  line-height: 1.5;
   font-weight: 500;
+  line-height: 1.5;
   text-transform: capitalize;
 }
