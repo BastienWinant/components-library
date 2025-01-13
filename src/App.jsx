@@ -3,6 +3,7 @@ import Badge from './components/Badge/Badge'
 import Banner from './components/Banner'
 import Card from './components/Card'
 import uploadIcon from './assets/img/migration.svg'
+import dollarIcon from './assets/img/currency-dollar.svg'
 
 function App() {
   return (
@@ -79,9 +80,13 @@ function App() {
           <h2>Cards</h2>
         </header>
         <div className='cards'>
-          <Card iconSrc={uploadIcon}>
+          <Card iconSrc={uploadIcon} color="blue">
             <Card.Title>easy deployment</Card.Title>
             <Card.Text>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card.Text>
+          </Card>
+          <Card iconSrc={dollarIcon} color="indigo">
+            <Card.Title>pricing</Card.Title>
+            <Card.Text>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum pariatur libero distinctio nisi beatae dolorum.</Card.Text>
           </Card>
         </div>
       </section>
