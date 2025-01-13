@@ -37,3 +37,43 @@ h1 {
   font-weight: 700;
   line-height: 1.33;
 }
+
+.gray-light {
+  background-color: #F3F4F6;
+  color: #1F2937;
+}
+
+.red-light {
+  background-color: #FEE2E2;
+  color: #991B1B;
+}
+
+.yellow-light {
+  background-color: #FEF3C7;
+  color: #92400E;
+}
+
+.green-light {
+  background-color: #D1FAE5;
+  color: #065F46;
+}
+
+.blue-light {
+  background-color: #DBEAFE;
+  color: #1E40AF;
+}
+
+.indigo-light {
+  background-color: #E0E7FF;
+  color: #3730A3;
+}
+
+.purple-light {
+  background-color: #EDE9FE;
+  color: #5B21B6;
+}
+
+.pink-light {
+  background-color: #FCE7F3;
+  color: #9D174D;
+}
