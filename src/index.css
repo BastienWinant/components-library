@@ -16,3 +16,9 @@ img {
   object-fit: cover;
   max-width: 100%;
 }
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

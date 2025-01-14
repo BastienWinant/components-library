@@ -1,0 +1,12 @@
+.tooltip {
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.tooltip-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+  background-color: #666;
+  border: 1px solid black;
+}

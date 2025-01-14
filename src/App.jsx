@@ -2,6 +2,7 @@ import './App.css'
 import Badge from './components/Badge/Badge'
 import Banner from './components/Banner'
 import Card from './components/Card'
+import Tooltip from './components/Tooltip'
 import uploadIcon from './assets/img/migration.svg'
 import dollarIcon from './assets/img/currency-dollar.svg'
 
@@ -88,6 +89,19 @@ function App() {
             <Card.Title>pricing</Card.Title>
             <Card.Text>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum pariatur libero distinctio nisi beatae dolorum.</Card.Text>
           </Card>
+        </div>
+      </section>
+      <section>
+        <header className="section-header">
+          <h2>Tooltip</h2>
+        </header>
+        <div className="tooltips">
+          <Tooltip
+            title="Lorem ipsum"
+            detail="Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur."
+          >
+            <button className='btn'>hover over me</button>
+          </Tooltip>
         </div>
       </section>
     </main>

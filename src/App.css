@@ -39,6 +39,15 @@ h1 {
   line-height: 1.33;
 }
 
+.btn {
+  padding: .5em 1em;
+  border-radius: .5em;
+  border: 2px solid darkgray;
+  background-color: lightgray;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
 .gray-light {
   background-color: #F3F4F6;
   color: #1F2937;
