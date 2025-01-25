@@ -17,6 +17,7 @@ body {
 }
 
 main {
+  width: 90%;
   max-width: 992px;
   margin: auto;
   display: flex;

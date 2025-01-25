@@ -2,9 +2,9 @@ import './App.css'
 import Badge from './components/Badge/Badge'
 import Banner from './components/Banner'
 import Card from './components/Card'
-import Tooltip from './components/Tooltip'
 import uploadIcon from './assets/img/migration.svg'
 import dollarIcon from './assets/img/currency-dollar.svg'
+import portraitImg from './assets/img/portrait.png'
 
 function App() {
   return (
@@ -93,15 +93,10 @@ function App() {
       </section>
       <section>
         <header className="section-header">
-          <h2>Tooltip</h2>
+          <h2>Testimonials</h2>
         </header>
-        <div className="tooltips">
-          <Tooltip
-            title="Lorem ipsum"
-            detail="Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur."
-          >
-            <button className='btn'>hover over me</button>
-          </Tooltip>
+        <div className="testimonials">
+          
         </div>
       </section>
     </main>
