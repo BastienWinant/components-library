@@ -2,9 +2,10 @@ import './App.css'
 import Badge from './components/Badge/Badge'
 import Banner from './components/Banner'
 import Card from './components/Card'
+import TestimonialWithImage from "./components/TestimonialWithImage/TestimonialWithImage"
 import uploadIcon from './assets/img/migration.svg'
 import dollarIcon from './assets/img/currency-dollar.svg'
-import portraitImg from './assets/img/portrait.png'
+import portraitImg from "./assets/img/portrait.png"
 
 function App() {
   return (
@@ -96,7 +97,10 @@ function App() {
           <h2>Testimonials</h2>
         </header>
         <div className="testimonials">
-          
+          <div className="testimonial-row">
+            <TestimonialWithImage type="mobile" imgSrc={portraitImg} />
+            <TestimonialWithImage type="mobile" imgSrc={portraitImg} />
+          </div>
         </div>
       </section>
     </main>
