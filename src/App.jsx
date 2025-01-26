@@ -2,7 +2,8 @@ import './App.css'
 import Badge from './components/Badge/Badge'
 import Banner from './components/Banner'
 import Card from './components/Card'
-import TestimonialWithImage from './components/TestimonialWithImage/TestimonialWithImage'
+// import TestimonialWithImage from './components/TestimonialWithImage/TestimonialWithImage'
+import Testimonial from './components/Testimonial'
 import uploadIcon from './assets/img/migration.svg'
 import dollarIcon from './assets/img/currency-dollar.svg'
 import portraitImg from './assets/img/portrait.png'
@@ -103,40 +104,50 @@ function App() {
         </header>
         <div className='testimonials'>
           <div className='testimonial-row'>
-            <TestimonialWithImage
-              type='mobile'
-              imgSrc={portraitImg}
-              name={testimonialName}
-              company={testimonialCompany}
-              title={testimonialTitle}
-            />
-            <TestimonialWithImage
-              type='mobile'
-              imgSrc={portraitImg}
-              name={testimonialName}
-              company={testimonialCompany}
-              title={testimonialTitle}
-            />
-          </div>
-          <div className='testimonial-row'>
-            <TestimonialWithImage
-              type='desktop'
-              imgSrc={portraitImg}
-              name={testimonialName}
-              company={testimonialCompany}
-              title={testimonialTitle}
-            />
-          </div>
-          <div className='testimonial-row'>
-            <TestimonialWithImage
-              type='desktop'
-              imgSrc={portraitImg}
-              name={testimonialName}
-              company={testimonialCompany}
-              title={testimonialTitle}
-            />
+            <Testimonial type='mobile'>
+              <Testimonial.Quote name={testimonialName} company={testimonialCompany} title={testimonialTitle}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. 
+              </Testimonial.Quote>
+            </Testimonial>
           </div>
         </div>
+        {/* <div className='testimonials'>
+          <div className='testimonial-row'>
+            <TestimonialWithImage
+              type='mobile'
+              imgSrc={portraitImg}
+              name={testimonialName}
+              company={testimonialCompany}
+              title={testimonialTitle}
+            />
+            <TestimonialWithImage
+              type='mobile'
+              imgSrc={portraitImg}
+              name={testimonialName}
+              company={testimonialCompany}
+              title={testimonialTitle}
+            />
+          </div>
+          <div className='testimonial-row'>
+            <TestimonialWithImage
+              type='desktop'
+              imgSrc={portraitImg}
+              name={testimonialName}
+              company={testimonialCompany}
+              title={testimonialTitle}
+            />
+          </div>
+          <div className='testimonial-row'>
+            <TestimonialWithImage
+              type='desktop'
+              imgSrc={portraitImg}
+              name={testimonialName}
+              company={testimonialCompany}
+              title={testimonialTitle}
+            />
+          </div>
+        </div> */}
       </section>
     </main>
   )

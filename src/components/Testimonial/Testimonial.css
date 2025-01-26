@@ -1,0 +1,34 @@
+.testimonial {
+  background-color: #2545B8;
+  color: #FFFFFF;
+  display: inline-block;
+}
+
+.testimonial-inner {
+  display: flex;
+  padding: 0 1em;
+}
+
+.testimonial-mobile {
+  max-width: 376px;
+}
+
+/* QUOTE */
+.testimonial-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5em;
+
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.testimonial-quote {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-name {
+  font-weight: 700;
+}
