@@ -8,6 +8,11 @@ import dollarIcon from './assets/img/currency-dollar.svg'
 import portraitImg from "./assets/img/portrait.png"
 
 function App() {
+  
+  const testimonialName = "May Andersons"
+  const testimonialCompany = "Workcation"
+  const testimonialTitle = "CTO"
+
   return (
     <main>
       <h1>Components library</h1>
@@ -98,8 +103,29 @@ function App() {
         </header>
         <div className="testimonials">
           <div className="testimonial-row">
-            <TestimonialWithImage type="mobile" imgSrc={portraitImg} />
-            <TestimonialWithImage type="mobile" imgSrc={portraitImg} />
+            <TestimonialWithImage
+              type="mobile"
+              imgSrc={portraitImg}
+              name={testimonialName}
+              company={testimonialCompany}
+              title={testimonialTitle}
+            />
+            <TestimonialWithImage
+              type="mobile"
+              imgSrc={portraitImg}
+              name={testimonialName}
+              company={testimonialCompany}
+              title={testimonialTitle}
+            />
+          </div>
+          <div className="testimonial-row">
+            <TestimonialWithImage
+              type="desktop"
+              imgSrc={portraitImg}
+              name={testimonialName}
+              company={testimonialCompany}
+              title={testimonialTitle}
+            />
           </div>
         </div>
       </section>

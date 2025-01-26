@@ -23,6 +23,12 @@
   top: -6em;
 }
 
+.testimonial-desktop {
+  gap: 2em;
+  align-items: center;
+  padding: 0 4.5em;
+}
+
 .testimonial-img {
   border-radius: .75em;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1),
@@ -32,6 +38,12 @@
 .testimonial-mobile .testimonial-img {
   height: 13em;
   width: 100%;
+}
+
+.testimonial-desktop .testimonial-img {
+  /* width: 25%; */
+  width: 300px;
+  height: 110%;
 }
 
 .testimonial-figure {
@@ -45,6 +57,10 @@
 .testimonial-mobile .testimonial-figure {
   position: relative;
   top: 3em;
+}
+
+.testimonial-desktop .testimonial-figure {
+  margin: 4em 0;
 }
 
 .testimonial-quote {
