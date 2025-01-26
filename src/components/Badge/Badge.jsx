@@ -6,7 +6,7 @@ export default function Badge({children, color, shape}) {
 
   return (
     <div className={className}>
-      <p className="badge-text">{children}</p>
+      <p className='badge-text'>{children}</p>
     </div>
   )
 }

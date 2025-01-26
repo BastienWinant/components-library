@@ -1,9 +1,9 @@
 import clsx from 'clsx'
-import checkmarkIcon from "./img/c-check.svg"
-import warningIcon from "./img/warning-sign.svg"
-import dangerIcon from "./img/c-remove.svg"
-import infoIcon from "./img/c-info.svg"
-import defaultIcon from "./img/radio-btn.svg"
+import checkmarkIcon from './img/c-check.svg'
+import warningIcon from './img/warning-sign.svg'
+import dangerIcon from './img/c-remove.svg'
+import infoIcon from './img/c-info.svg'
+import defaultIcon from './img/radio-btn.svg'
 
 export default function Banner({children, status}) {
   let bannerIcon
@@ -34,8 +34,8 @@ export default function Banner({children, status}) {
 
   return (
     <article className={className}>
-      <img src={bannerIcon} className="banner-icon" />
-      <div className="banner-body">
+      <img src={bannerIcon} className='banner-icon' />
+      <div className='banner-body'>
         {children}
       </div>
     </article>
