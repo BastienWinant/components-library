@@ -105,6 +105,23 @@ function App() {
         <div className='testimonials'>
           <div className='testimonial-row'>
             <Testimonial type='mobile'>
+              <Testimonial.Portrait imgSrc={portraitImg} />
+              <Testimonial.Quote name={testimonialName} company={testimonialCompany} title={testimonialTitle}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. 
+              </Testimonial.Quote>
+            </Testimonial>
+            <Testimonial type='mobile'>
+              <Testimonial.Portrait imgSrc={portraitImg} />
+              <Testimonial.Quote name={testimonialName} company={testimonialCompany} title={testimonialTitle}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. 
+              </Testimonial.Quote>
+            </Testimonial>
+          </div>
+          <div className='testimonial-row'>
+            <Testimonial type='desktop'>
+              <Testimonial.Portrait imgSrc={portraitImg} />
               <Testimonial.Quote name={testimonialName} company={testimonialCompany} title={testimonialTitle}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. 
