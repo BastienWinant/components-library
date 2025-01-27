@@ -53,6 +53,10 @@
 }
 
 @media only screen and (min-width: 576px) {
+  .testimonial {
+    margin-top: 4em;
+  }
+
   .testimonial-inner {
     gap: 3em;
     position: static;
@@ -61,8 +65,7 @@
   }
 
   .testimonial-portrait {
-    width: 12em;
-    height: 12em;
+    width: 13em;
     position: static;
     margin: 0;
   }
@@ -85,8 +88,8 @@
   }
 
   .testimonial-portrait {
-    width: 15em;
-    height: 12em;
+    width: 30%;
+    height: 100%;
   }
 
   .testimonial-figure {
