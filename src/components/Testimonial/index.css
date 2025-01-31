@@ -1,8 +1,10 @@
 /* TESTIMONIAL CONTAINER */
 .testimonial {
+  width: 100%;
   background-color: white;
   color: #111827;
   display: inline-flex;
+  justify-content: center;
 }
 
 .testimonial.mobile {
@@ -27,7 +29,6 @@
 }
 
 .testimonial-inner.desktop {
-  position: static;
   gap: 2.5em;
   padding: 4em 0;
 }
@@ -55,7 +56,8 @@
 }
 
 .headshot-img.desktop {
-  width: 300px;
+  width: 30%;
+  max-width: 300px;
   height: 110%;
 }
 
@@ -70,6 +72,20 @@
   font-weight: 500;
 
   z-index: 1;
+}
+
+.quote-figure.desktop {
+  max-width: 768px;
+  align-items: center;
+  text-align: center;
+  margin: 0 3em;
+}
+
+.testimonial-with-img .quote-figure.desktop {
+  align-items: flex-start;
+  text-align: left;
+  padding: 3em;
+  margin: 0;
 }
 
 .bottom-left-img {
