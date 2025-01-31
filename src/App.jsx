@@ -2,7 +2,8 @@ import './App.css'
 import Badge from './components/Badge/Badge'
 import Banner from './components/Banner'
 import Card from './components/Card'
-import TestimonialWithImage from './components/TestimonialWithImage'
+// import TestimonialWithImage from './components/TestimonialWithImage'
+import Testimonial from './components/Testimonial'
 import uploadIcon from './assets/img/migration.svg'
 import dollarIcon from './assets/img/currency-dollar.svg'
 import portraitImg from './assets/img/portrait.png'
@@ -11,7 +12,7 @@ function App() {
   
   const testimonialName = 'May Andersons'
   const testimonialCompany = 'Workcation'
-  const testimonialTitle = 'CTO'
+  const testimonialRole = 'CTO'
 
   return (
     <main>
@@ -103,13 +104,21 @@ function App() {
         </header>
         <div className='testimonials'>
           <div className='testimonial-row'>
-            <TestimonialWithImage>
-              <TestimonialWithImage.Portrait imgSrc={portraitImg} />
-              <TestimonialWithImage.Quote name={testimonialName} company={testimonialCompany} title={testimonialTitle}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. 
-              </TestimonialWithImage.Quote>
-            </TestimonialWithImage>
+            <Testimonial>
+              <Testimonial.Headshot imgSrc={portraitImg} />
+              <Testimonial.Quote name={testimonialName} role={testimonialRole} company={testimonialCompany}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue.
+              Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. 
+              </Testimonial.Quote>
+            </Testimonial>
+          </div>
+          <div className='testimonial-row'>
+            <Testimonial>
+              <Testimonial.Quote name={testimonialName} role={testimonialRole} company={testimonialCompany}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae.
+              Numquam corrupti in laborum sed rerum et corporis.
+              </Testimonial.Quote>
+            </Testimonial>
           </div>
         </div>
       </section>
