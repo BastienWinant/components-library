@@ -1,10 +1,10 @@
 import blockQuote from './img/blockQuote.svg'
 
-export default function Quote({children, withImg, name, role, company}) {
+export default function Quote({children, layout, withImg, name, role, company}) {
   const quoteText = `${withImg ? '' : '“'}${children}${withImg ? '' : '”'}`
   const separator = <span className='separator'>{withImg ? ', ' : ' / '}</span>
   return (
-    <figure className='quote-figure'>
+    <figure className={`quote-figure ${layout}`}>
       {withImg && <img src={blockQuote} alt='Quotation mark' />}
       <blockquote className='quote'>{quoteText}</blockquote>
       <figcaption className='quote-caption'>

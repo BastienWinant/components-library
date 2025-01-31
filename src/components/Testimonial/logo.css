@@ -4,6 +4,8 @@
   display: flex;
   align-items: center;
   gap: .5em;
+
+  border: 1px solid red;
 }
 
 .logo-img {

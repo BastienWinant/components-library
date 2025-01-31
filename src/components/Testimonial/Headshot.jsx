@@ -1,5 +1,5 @@
-export default function Headshot({imgSrc}) {
+export default function Headshot({imgSrc, layout}) {
   return (
-    <img src={imgSrc} className='headshot-img' alt='Testimonial headshot.' />
+    <img src={imgSrc} className={`headshot-img ${layout}`} alt='Testimonial headshot.' />
   )
 }
