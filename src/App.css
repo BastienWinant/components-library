@@ -88,3 +88,44 @@ h1 {
   background-color: #FCE7F3;
   color: #9D174D;
 }
+
+/* LAYOUT */
+.badges {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.badge-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.banners {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+}
+
+.banner-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3em;
+  padding-top: 4em;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+}

@@ -1,8 +1,4 @@
 /* TESTIMONIAL CONTAINER */
-.testimonial {
-  border: 1px solid black;
-}
-
 .testimonial-with-img {
   margin-top: 8em;
 }
@@ -11,7 +7,7 @@
   display: flex;
   flex-direction: column;
   gap: 3em;
-  padding: 4em 1em;
+  padding: 4em 6vw;
 
   background-color: white;
   color: #111827;
@@ -54,7 +50,7 @@
 .bottom-left-img {
   position: absolute;
   bottom: 0;
-  left: 1em;
+  left: 6vw;
 
   width: 12.625em;
 }
