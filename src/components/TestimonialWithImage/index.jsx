@@ -1,4 +1,4 @@
-import './Testimonial.css'
+import './index.css'
 import TestimonialWithImage from './TestimonialWithImage'
 import TestimonialPortait from './TestimonialPortrait'
 import TestimonialQuote from './TestimonialQuote'

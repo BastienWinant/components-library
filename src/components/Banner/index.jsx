@@ -1,4 +1,4 @@
-import './Banner.css'
+import './index.css'
 import Banner from './Banner';
 import BannerTitle from './BannerTitle';
 import BannerText from './BannerText';

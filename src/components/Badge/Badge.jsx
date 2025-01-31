@@ -1,4 +1,4 @@
-import './Badge.css'
+import './index.css'
 import clsx from 'clsx'
 
 export default function Badge({children, color, shape}) {

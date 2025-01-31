@@ -1,4 +1,4 @@
-import './Card.css'
+import './index.css'
 import Card from './Card'
 import CardTitle from './CardTitle'
 import CardText from './CardText'
