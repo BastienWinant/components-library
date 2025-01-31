@@ -114,7 +114,7 @@ function App() {
           </div>
           <div className='testimonial-row'>
             <Testimonial>
-              <Testimonial.Quote name={testimonialName} role={testimonialRole} company={testimonialCompany}>
+              <Testimonial.Quote role={testimonialRole} company={testimonialCompany}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae.
               Numquam corrupti in laborum sed rerum et corporis.
               </Testimonial.Quote>

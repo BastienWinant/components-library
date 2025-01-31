@@ -1,6 +1,7 @@
 import clsx from 'clsx'
 import { Children, cloneElement } from 'react'
 import dotGrid from './img/gallery-layout.svg'
+import Logo from './Logo'
 
 export default function Testimonial({children}) {
   // determine whether a headshot component is included
@@ -12,6 +13,7 @@ export default function Testimonial({children}) {
   return (
     <article className={testimonialClasses}>
       <div className='testimonial-inner'>
+        {!withImg && <Logo />}
         {!withImg && <img src={dotGrid} className='bottom-left-img' alt='Decorative dot grid.' />}
         {Children.map(children, child => cloneElement(child, {withImg}))}
       </div>

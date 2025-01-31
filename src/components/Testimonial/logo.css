@@ -1,0 +1,21 @@
+.logo {
+  margin: auto;
+  
+  display: flex;
+  align-items: center;
+  gap: .5em;
+}
+
+.logo-img {
+  width: 2em;
+}
+
+.logo-text {
+  color: #1F2937;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.logo-text span {
+  color: #2E59F3;
+}

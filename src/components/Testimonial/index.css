@@ -66,3 +66,22 @@
 .quote-name {
   font-weight: 700;
 }
+
+.testimonial-with-img .quote-title {
+  color: inherit;
+}
+
+.quote-title {
+  color: #6B7280;
+}
+
+.testimonial-with-img .separator {
+  color: inherit;
+  font-weight: inherit;
+}
+
+.separator {
+  color: #2545B8;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
