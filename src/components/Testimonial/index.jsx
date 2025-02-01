@@ -1,7 +1,7 @@
 import './index.css'
 import Testimonial from './Testimonial'
-import Headshot from './Headshot'
 import Quote from './Quote'
+import Headshot from './Headshot'
 
 Testimonial.Headshot = Headshot
 Testimonial.Quote = Quote

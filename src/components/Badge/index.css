@@ -1,6 +1,48 @@
+.gray {
+  background-color: #F3F4F6;
+  color: #1F2937;
+}
+
+.red {
+  background-color: #FEE2E2;
+  color: #991B1B;
+}
+
+.yellow {
+  background-color: #FEF3C7;
+  color: #92400E;
+}
+
+.green {
+  background-color: #D1FAE5;
+  color: #065F46;
+}
+
+.blue {
+  background-color: #DBEAFE;
+  color: #1E40AF;
+}
+
+.indigo {
+  background-color: #E0E7FF;
+  color: #3730A3;
+}
+
+.purple {
+  background-color: #EDE9FE;
+  color: #5B21B6;
+}
+
+.pink {
+  background-color: #FCE7F3;
+  color: #9D174D;
+}
+
 .badge {
   display: inline-block;
   padding: .125em .75em;
+  
+  display: flex;
 }
 
 .badge.square {
@@ -8,12 +50,13 @@
 }
 
 .badge.pill {
-  border-radius: .75em;
+  border-radius: .75em;   
 }
 
 .badge-text {
+  margin: auto;
   font-size: .875rem;
-  font-weight: 500;
-  line-height: 1.5;
   text-transform: capitalize;
+  line-height: 1.5em;
+  font-weight: 500;
 }

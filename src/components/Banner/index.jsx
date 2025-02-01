@@ -1,9 +1,9 @@
 import './index.css'
-import Banner from './Banner';
-import BannerTitle from './BannerTitle';
-import BannerText from './BannerText';
+import Banner from './Banner'
+import Title from './Title'
+import Description from './Description'
 
-Banner.Title = BannerTitle;
-Banner.Text = BannerText;
+Banner.Title = Title
+Banner.Description = Description
 
-export default Banner;
+export default Banner

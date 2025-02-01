@@ -1,9 +1,9 @@
 import './index.css'
 import Card from './Card'
-import CardTitle from './CardTitle'
-import CardText from './CardText'
+import Title from './Title'
+import Description from './Description'
 
-Card.Title = CardTitle
-Card.Text = CardText
+Card.Title = Title
+Card.Description = Description
 
 export default Card

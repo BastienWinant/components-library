@@ -1,5 +1,7 @@
+import clsx from 'clsx'
+
 export default function Headshot({imgSrc, layout}) {
-  return (
-    <img src={imgSrc} className={`headshot-img ${layout}`} alt='Testimonial headshot.' />
-  )
+    return (
+        <img className={clsx('headshot', layout)} alt='Headshot.' src={imgSrc} />
+    )
 }

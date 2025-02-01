@@ -1,13 +1,10 @@
-import "./logo.css"
-import houseIcon from "./img/house-5.svg"
+import logoIcon from './img/house-5.svg'
 
 export default function Logo() {
-  return (
-    <figure className="logo">
-      <img src={houseIcon} className="logo-img" alt="House logo icon." />
-      <figcaption className="logo-text">
-        Work<span>cation</span>
-      </figcaption>
-    </figure>
-  )
+    return (
+        <div className='logo'>
+            <img src={logoIcon} className='logo-img' alt='Logo image.' />
+            <p className='logo-text'>Work<span>cation</span></p>
+        </div>
+    )
 }

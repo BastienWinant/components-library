@@ -1,43 +1,40 @@
-import clsx from 'clsx'
-import checkmarkIcon from './img/c-check.svg'
-import warningIcon from './img/warning-sign.svg'
-import dangerIcon from './img/c-remove.svg'
+import checkIcon from './img/c-check.svg'
 import infoIcon from './img/c-info.svg'
-import defaultIcon from './img/radio-btn.svg'
+import removeIcon from './img/c-remove.svg'
+import radioIcon from './img/radio-btn.svg'
+import warningIcon from './img/warning-sign.svg'
 
-export default function Banner({children, status}) {
-  let bannerIcon
-  let colorClass
-  switch(status) {
-    case 'success':
-      bannerIcon = checkmarkIcon
-      colorClass = 'green-light'
-      break
-    case 'warning':
-      bannerIcon = warningIcon
-      colorClass = 'yellow-light'
-      break
-    case 'danger':
-      bannerIcon = dangerIcon
-      colorClass = 'red-light'
-      break
-    case 'info':
-      bannerIcon = infoIcon
-      colorClass = 'blue-light'
-      break
-    default:
-      bannerIcon = defaultIcon
-      colorClass = 'gray-light'
-  }
-
-  const className = clsx('banner', colorClass)
-
-  return (
-    <article className={className}>
-      <img src={bannerIcon} className='banner-icon' />
-      <div className='banner-body'>
-        {children}
-      </div>
-    </article>
-  )
+export default function Banner({children, type}) {
+    let imgSrc
+    let colorStyles
+    switch(type) {
+        case 'success':
+            imgSrc = checkIcon
+            colorStyles = {backgroundColor: '#ECFDF5', color: '#065F46'}
+            break
+        case 'warning':
+            imgSrc = warningIcon
+            colorStyles = {backgroundColor: '#FFFBEB', color: '#B45309'}
+            break
+        case 'danger':
+            imgSrc = removeIcon
+            colorStyles = {backgroundColor: '#FEF2F2', color: '#B45309'}
+            break
+        case 'info':
+            imgSrc = infoIcon
+            colorStyles = {backgroundColor: '#EFF6FF', color: '#1E40AF'}
+            break
+        default:
+            imgSrc = radioIcon
+            colorStyles = {backgroundColor: '#F3F4F6', color: '#1F2937'}
+    }
+    
+    return (
+        <article className='banner' style={colorStyles}>
+            <img src={imgSrc} className="banner-img" alt="" />
+            <div className='banner-body'>
+                {children}
+            </div>
+        </article>
+    )
 }

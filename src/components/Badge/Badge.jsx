@@ -1,12 +1,11 @@
 import './index.css'
 import clsx from 'clsx'
 
-export default function Badge({children, color, shape}) {
-  let className = clsx('badge', `${color}-light`, shape)
-
-  return (
-    <div className={className}>
-      <p className='badge-text'>{children}</p>
-    </div>
-  )
+export default function Badge({children, shape, color}) {
+    const badgeClasses = clsx('badge', shape || 'square', color || 'gray')
+    return (
+        <div className={badgeClasses}>
+            <p className='badge-text'>{children}</p>
+        </div>
+    )
 }

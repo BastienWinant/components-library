@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Inter';
-  src: url('./assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf');
+  font-family: 'Inter', sans-serif;
+  src: url('./assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf');
   font-style: normal;
 }
 
@@ -10,130 +10,92 @@
   font-style: normal;
 }
 
-body {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background-color: #E5E7EB;
-  line-height: 1;
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
 }
 
-main {
-  width: 90%;
-  max-width: 992px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 4em;
-  border: 2px solid orangered;
+body {
+    font-family: 'Inter';
+    background-color: #E5E7EB;
 }
 
 h1 {
-  font-family: 'Permanent Marker';
-  font-size: 3.25rem;
-  font-weight: 700;
-  text-align: center;
+    font-family: 'Permanent Marker';
+    font-size: 3rem;
+    text-align: center;
+}
+
+main {
+    width: 90vw;
+    max-width: 992px;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    padding: 4em 0;
+}
+
+main > section {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;    
 }
 
 .section-header {
-  font-family: 'Permanent Marker';
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: 1.33;
+    font-family: 'Permanent Marker';
+    font-size: 2.5rem;
 }
 
-.btn {
-  padding: .5em 1em;
-  border-radius: .5em;
-  border: 2px solid darkgray;
-  background-color: lightgray;
-  font-weight: 600;
-  text-transform: capitalize;
-}
-
-.gray-light {
-  background-color: #F3F4F6;
-  color: #1F2937;
-}
-
-.red-light {
-  background-color: #FEE2E2;
-  color: #991B1B;
-}
-
-.yellow-light {
-  background-color: #FEF3C7;
-  color: #92400E;
-}
-
-.green-light {
-  background-color: #D1FAE5;
-  color: #065F46;
-}
-
-.blue-light {
-  background-color: #DBEAFE;
-  color: #1E40AF;
-}
-
-.indigo-light {
-  background-color: #E0E7FF;
-  color: #3730A3;
-}
-
-.purple-light {
-  background-color: #EDE9FE;
-  color: #5B21B6;
-}
-
-.pink-light {
-  background-color: #FCE7F3;
-  color: #9D174D;
-}
-
-/* LAYOUT */
+/* BADGES */
 .badges {
-  display: flex;
-  flex-direction: column;
-  gap: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
 }
 
 .badge-row {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    justify-items: center;
+    gap: 1em 0;
 }
 
+/* BANNERS */
 .banners {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: auto;
+    gap: 2em;
 }
 
-.banner-column {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
+.banner-col {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
+/* CARDS */
 .cards {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 3em;
-  padding-top: 4em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-items: center;
+    gap: 1em 2em;
 }
 
+/* TESTIMONIALS */
 .testimonials {
-  display: flex;
-  flex-direction: column;
-  gap: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
 }
 
 .testimonial-row {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-around;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2em;
 }
