@@ -1,3 +1,4 @@
+import './index.css'
 import logoIcon from './img/house-5.svg'
 
 export default function Logo() {

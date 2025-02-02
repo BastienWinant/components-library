@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import { Children, cloneElement } from 'react'
 import gridIcon from './img/gallery-layout.svg'
-import Logo from './Logo'
+import Logo from '../Logo/Logo';
 
 export default function Testimonial({children, layout}) {
     const hasImg = Children.toArray(children).find(child => child.type.name === 'Headshot') !== undefined

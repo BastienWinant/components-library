@@ -127,21 +127,3 @@
   font-size: inherit;
   font-weight: inherit;
 }
-
-/* LOGO */
-.logo {
-  display: flex;
-  align-items: center;
-  gap: .5em;
-}
-
-.logo-text {
-  font-size: 1.125rem;
-  font-weight: 700;
-  color: #1F2937;
-  line-height: 1;
-}
-
-.logo-text span {
-  color: #2E59F3;
-}
